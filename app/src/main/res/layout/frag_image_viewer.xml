@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_image_download"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_file_download"
+                android:backgroundTint="@color/color_green"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/btn_image_viewer_close"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="X"
+                android:background="@drawable/circle_background_black"
+                android:layout_margin="5dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <include layout="@layout/ma_divider_horizontal_dark_up"/>
+
+    <ImageView
+        android:id="@+id/fe_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/loading_shape"
+        android:layout_margin="5dp"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"/>
+
+</LinearLayout>

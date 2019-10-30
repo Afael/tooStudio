@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSlide1"
+    tools:context="com.desktopip.exploriztic.spatialworkingstudio.activities.Introduction">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/introViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".5"
+        android:layout_above="@+id/introDotsLayout"
+        android:background="@color/color_white"
+        android:layout_marginBottom="15dp"/>
+
+    <LinearLayout
+        android:id="@+id/introDotsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="55sp"/>
+    
+    <Button
+        android:id="@+id/btnIntroSkip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@null"
+        android:textColor="@color/color_white"
+        android:layout_marginBottom="8dp"
+        android:text="Skip"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnIntroNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:textColor="@color/color_white"
+        android:layout_marginBottom="8dp"
+        android:text="Next"
+        android:textSize="16sp"/>
+
+</RelativeLayout>

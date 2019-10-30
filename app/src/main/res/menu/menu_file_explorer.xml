@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/fe_search"
+        android:title="Search"
+        app:showAsAction="always|collapseActionView"
+        android:icon="@drawable/ic_search_black_24dp"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        />
+    <item
+        android:id="@+id/fe_nav_back"
+        android:title="@string/fe_back"
+        android:icon="@drawable/ic_undo_black_24dp"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/fe_nav_upload"
+        android:title="@string/fe_upload"
+        android:icon="@drawable/ic_file_upload_black_24dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/fe_nav_new_folder"
+        android:title="@string/fe_new_folder"
+        android:icon="@mipmap/ic_folder"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/fe_nav_paste"
+        android:title="@string/fe_paste"
+        android:icon="@drawable/ic_content_paste_black_24dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/fe_nav_reload"
+        android:title="@string/fe_reload"
+        android:icon="@drawable/ic_autorenew_black_24dp"
+        app:showAsAction="ifRoom"/>
+</menu>

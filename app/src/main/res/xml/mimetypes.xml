@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+ * Copyright (C) 2007-2008 OpenIntents.org
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+<MimeTypes>
+    <!-- Image types -->
+    <type
+        extension=".png"
+        icon="@mipmap/ic_images"
+        mimetype="image/png"/>
+    <type
+        extension=".gif"
+        icon="@mipmap/ic_images"
+        mimetype="image/gif"/>
+    <type
+        extension=".jpg"
+        icon="@mipmap/ic_images"
+        mimetype="image/jpeg"/>
+    <type
+        extension=".jpeg"
+        icon="@mipmap/ic_images"
+        mimetype="image/jpeg"/>
+    <type
+        extension=".bmp"
+        icon="@mipmap/ic_images"
+        mimetype="image/bmp"/>
+    <type
+        extension=".svg"
+        icon="@mipmap/ic_images"
+        mimetype="image/svg+xml"/>
+
+    <!-- Audio types -->
+    <type
+        extension=".mp3"
+        icon="@mipmap/ic_music"
+        mimetype="audio/mpeg"/>
+    <type
+        extension=".wav"
+        icon="@mipmap/ic_music"
+        mimetype="audio/x-wav"/>
+    <type
+        extension=".ogg"
+        icon="@mipmap/ic_music"
+        mimetype="application/ogg"/>
+    <type
+        extension=".mid"
+        icon="@mipmap/ic_music"
+        mimetype="audio/midi"/>
+    <type
+        extension=".midi"
+        icon="@mipmap/ic_music"
+        mimetype="audio/midi"/>
+    <type
+        extension=".amr"
+        icon="@mipmap/ic_music"
+        mimetype="audio/amr"/>
+    <type
+        extension=".aac"
+        icon="@mipmap/ic_music"
+        mimetype="audio/x-aac"/> <!-- NOT IN WEBKIT -->
+
+    <!-- Video types -->
+    <type
+        extension=".mpeg"
+        icon="@mipmap/ic_video"
+        mimetype="video/mpeg"/>
+    <type
+        extension=".3gp"
+        icon="@mipmap/ic_video"
+        mimetype="video/3gpp"/>
+
+    <!-- Package types -->
+    <type
+        extension=".jar"
+        icon="@mipmap/ic_archive"
+        mimetype="application/java-archive"/>
+    <type
+        extension=".zip"
+        icon="@mipmap/ic_archive"
+        mimetype="application/zip"/>
+    <type
+        extension=".rar"
+        icon="@mipmap/ic_archive"
+        mimetype="application/rar"/>
+    <type
+        extension=".gz"
+        icon="@mipmap/ic_archive"
+        mimetype="application/gzip"/> <!-- NOT IN WEBKIT -->
+
+    <!-- Web browser types -->
+    <type
+        extension=".htm"
+        icon="@mipmap/ic_file"
+        mimetype="text/html"/>
+    <type
+        extension=".html"
+        icon="@mipmap/ic_file"
+        mimetype="text/html"/>
+    <type
+        extension=".php"
+        icon="@mipmap/ic_file"
+        mimetype="text/php "/> <!-- NOT IN WEBKIT -->
+
+    <!-- Text types -->
+    <type
+        extension=".txt"
+        icon="@mipmap/ic_file"
+        mimetype="text/plain"/>
+    <type
+        extension=".csv"
+        icon="@mipmap/ic_file"
+        mimetype="text/csv"/>
+    <type
+        extension=".xml"
+        icon="@mipmap/ic_file"
+        mimetype="text/xml"/>
+
+    <!-- Android specific -->
+    <type
+        extension=".apk"
+        icon="@mipmap/ic_file"
+        mimetype="application/vnd.android.package-archive"/>
+
+    <!-- Books -->
+    <type
+        extension=".epub"
+        icon="@mipmap/ic_file"
+        mimetype="application/epub+zip"/>
+    <type
+        extension=".chm"
+        icon="@mipmap/ic_file"
+        mimetype="application/vnd.ms-htmlhelp"/>
+    <type
+        extension=".pdf"
+        icon="@mipmap/ic_file"
+        mimetype="application/pdf"/>
+    <type
+        extension=".mobi"
+        icon="@mipmap/ic_file"
+        mimetype="application/x-mobipocket-ebook"/>
+
+    <!-- Maps -->
+    <type
+        extension=".itn"
+        icon="@mipmap/ic_file"
+        mimetype="application/octet-stream"/>
+
+</MimeTypes>

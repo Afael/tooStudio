@@ -1,0 +1,116 @@
+{
+  "result": {
+    "datas": {
+      "user": "dexip1"
+    }
+  },
+  "template": [
+    {
+      "U_APP_ID": "32",
+      "GID": "1",
+      "GROUP_NAME": "Design",
+      "APP_IDS": "19",
+      "APPS_NAME": "Photoshop 7.0",
+      "APPS_PATH": "C:\\Program Files (x86)\\Adobe\\Photoshop 7.0\\Photoshop.exe",
+      "ICONS": "002-psd.png",
+      "APP_ACTIVE": "1"
+    },
+    {
+      "U_APP_ID": "32",
+      "GID": "2",
+      "GROUP_NAME": "Offices",
+      "APP_IDS": "1@3@17@18",
+      "APPS_NAME": "Microsoft Word@Microsoft Excel@Microsoft Power Point@Adobe PDF Reader",
+      "APPS_PATH": "C:\\Program Files (x86)\\Microsoft Office\\Office14\\WINWORD.EXE@C:\\Program Files\\Microsoft Office\\Office15\\EXCEL.EXE@C:\\Program Files\\Microsoft Office\\Office15\\POWERPNT.EXE@C:\\Program Files (x86)\\Adobe\\Reader 10.0\\Reader\\AcroRd32.exe",
+      "ICONS": "http://192.168.90.96/railiztic-admin/public/uploads/icons/007-doc.png@006-excel.png@004-ppt.png@001-pdf.png",
+      "APP_ACTIVE": "1@1@1@1"
+    },
+    {
+      "U_APP_ID": "32",
+      "GID": "4",
+      "GROUP_NAME": "Browser",
+      "APP_IDS": "4@6",
+      "APPS_NAME": "Mozilla Firefox@Google Chrome",
+      "APPS_PATH": "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe@C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+      "ICONS": "003-firefox.png@002-chrome.png",
+      "APP_ACTIVE": "1@1"
+    },
+    {
+      "U_APP_ID": "32",
+      "GID": "5",
+      "GROUP_NAME": "Spreadsheet",
+      "APP_IDS": "3",
+      "APPS_NAME": "Microsoft Excel",
+      "APPS_PATH": "C:\\Program Files\\Microsoft Office\\Office15\\EXCEL.EXE",
+      "ICONS": "006-excel.png",
+      "APP_ACTIVE": "1"
+    },
+    {
+      "U_APP_ID": "32",
+      "GID": "9",
+      "GROUP_NAME": "Office Basic for Work",
+      "APP_IDS": "1@2@3",
+      "APPS_NAME": "Microsoft Word@Calculator@Microsoft Excel",
+      "APPS_PATH": "C:\\Program Files (x86)\\Microsoft Office\\Office14\\WINWORD.EXE@c:\\windows\\system32\\calc.exe@C:\\Program Files\\Microsoft Office\\Office15\\EXCEL.EXE",
+      "ICONS": "007-doc.png@001-calculator.png@006-excel.png",
+      "APP_ACTIVE": "1@1@1"
+    },
+    {
+      "U_APP_ID": "32",
+      "GID": "10",
+      "GROUP_NAME": "Simple Apps",
+      "APP_IDS": "2@5",
+      "APPS_NAME": "Calculator@Notepad",
+      "APPS_PATH": "c:\\windows\\system32\\calc.exe@C:\\Windows\\System32\\notepad.exe",
+      "ICONS": "001-calculator.png@005-text-lines.png",
+      "APP_ACTIVE": "1@1"
+    }
+  ],
+  "apps_recents": [
+    {
+      "ID": "4",
+      "APP_ID": "2",
+      "USER": "dexip1",
+      "CLICK": "7",
+      "DATE_CREATED": "2018-09-21 20:28:04",
+      "DATE_MODIFIED": "2018-09-21 23:56:55",
+      "APP_NAME": "Calculator",
+      "APP_PATH": "c:\\windows\\system32\\calc.exe",
+      "ICON": "001-calculator.png"
+    },
+    {
+      "ID": "6",
+      "APP_ID": "5",
+      "USER": "dexip1",
+      "CLICK": "7",
+      "DATE_CREATED": "2018-09-21 20:40:39",
+      "DATE_MODIFIED": "2018-09-21 23:57:22",
+      "APP_NAME": "Notepad",
+      "APP_PATH": "C:\\Windows\\System32\\notepad.exe",
+      "ICON": "005-text-lines.png"
+    },
+    {
+      "ID": "1",
+      "APP_ID": "1",
+      "USER": "dexip1",
+      "CLICK": "5",
+      "DATE_CREATED": "2018-09-21 14:41:02",
+      "DATE_MODIFIED": "2018-09-21 23:53:45",
+      "APP_NAME": "Microsoft Word",
+      "APP_PATH": "C:\\Program Files (x86)\\Microsoft Office\\Office14\\WINWORD.EXE",
+      "ICON": "007-doc.png"
+    },
+    {
+      "ID": "2",
+      "APP_ID": "3",
+      "USER": "dexip1",
+      "CLICK": "2",
+      "DATE_CREATED": "2018-09-21 19:39:08",
+      "DATE_MODIFIED": "2018-09-21 20:28:15",
+      "APP_NAME": "Microsoft Excel",
+      "APP_PATH": "C:\\Program Files\\Microsoft Office\\Office15\\EXCEL.EXE",
+      "ICON": "006-excel.png"
+    }
+  ],
+  "status": "success"
+}

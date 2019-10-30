@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="?attr/actionBarSize">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/group_user_cancel_action"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:text="Back"-->
+            <!--android:gravity="center"-->
+            <!--android:paddingLeft="15dp"-->
+            <!--android:textSize="16sp"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:textColor="@color/color_blue"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/adv_group_name_page"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Group Name"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:textSize="16sp"-->
+            <!--android:textStyle="bold"/>-->
+
+    <!--</RelativeLayout>-->
+
+    <!--<include layout="@layout/ma_divider_horizontal_dark_up"/>-->
+
+    <RelativeLayout
+        android:id="@+id/add_user_group"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:background="@drawable/bg_clickable"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Member"
+            android:layout_alignParentLeft="true"
+            android:drawableLeft="@drawable/ic_group_add"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/color_blue"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textColor="@color/color_blue"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#949292"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_arrow_right"
+            android:tint="#949292"/>
+
+    </RelativeLayout>
+
+    <include layout="@layout/ma_divider_horizontal_dark_up"/>
+
+    <LinearLayout
+        android:id="@+id/adv_group_participans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adv_group_action"
+        android:background="@color/color_white_grey"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/adv_count_member_page"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rc_adv_group_member"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/adv_group_participans">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/fab_add_member"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_gravity="bottom|end"-->
+        <!--android:layout_margin="@dimen/fab_margin"-->
+        <!--android:src="@drawable/ic_group_add"-->
+        <!--android:tint="@color/color_white" />-->
+
+</LinearLayout>

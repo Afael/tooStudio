@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.desktopip.exploriztic.spatialworkingstudio.activities.GroupActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--Top toolbar-->
+        <RelativeLayout
+            android:id="@+id/relLayoutTop"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/white_grey_border_top">
+
+            <TextView
+                android:id="@+id/group_user_cancel_action"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Close"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:textSize="16sp"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/color_blue"/>
+
+            <TextView
+                android:id="@+id/adv_group_name_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Group Name"
+                android:gravity="center_horizontal"
+                android:layout_centerInParent="true"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <include layout="@layout/ma_divider_horizontal_dark_up"/>
+
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/relLayoutTop"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<include layout="@layout/layout_advgroup_top_tab" />-->
+
+        <!--</RelativeLayout>-->
+
+        <!--Body-->
+        <RelativeLayout
+            android:id="@+id/relLayoutContain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/relLayoutTop"
+            android:layout_marginBottom="?attr/actionBarSize">
+
+            <!--<include layout="@layout/layout_main_body_viewpager"/>-->
+
+        </RelativeLayout>
+
+
+        <!--Bottom-->
+        <!--<include layout="@layout/layout_advgroup_bottom_navigation_view" />-->
+        <com.aurelhubert.ahbottomnavigation.AHBottomNavigation
+            android:id="@+id/bottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/white_grey_border_top"/>
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

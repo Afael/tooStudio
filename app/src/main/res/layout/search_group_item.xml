@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:background="@drawable/white_grey_border_bottom">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="70"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/search_group_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Group"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/color_black"/>
+
+            <TextView
+                android:id="@+id/search_group_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Group"
+                android:textSize="12sp"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/search_join_group"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:text="Request"
+            android:gravity="center"
+            android:background="@drawable/custom_button_stroke_round_green_light"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

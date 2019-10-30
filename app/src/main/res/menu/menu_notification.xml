@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_create_group"
+        android:title="Create Group"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_group_yellow"/>
+
+    <item
+        android:id="@+id/menu_notification"
+        android:title="Notification"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_notification_yellow"/>
+
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linContent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white_grey_border_bottom"
+    android:clickable="true"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/iv_thumbnail"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_account" />
+
+    <TextView
+        android:id="@+id/adv_invite_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/iv_thumbnail"
+        android:gravity="center"
+        android:text="User Name"
+        android:textColor="@color/color_black"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/adv_invite_cbCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:focusable="false" />
+
+</RelativeLayout>

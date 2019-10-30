@@ -1,0 +1,109 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:typeface">normal</item>
+
+    </style>
+
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Dark"/>
+
+    <style name="AppTheme.ImagePicker" >
+        <item name="toolbar">@style/Theme.AppCompat.NoActionBar</item>
+    </style>
+
+    <style name="MyCheckBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/color_red</item>
+    </style>
+
+    <style name="hidetitle" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MAFullWidthEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:minHeight">@dimen/ma_text_field_full_width_height</item>
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:paddingTop">@dimen/ma_text_field_full_width_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/ma_text_field_full_width_padding_vertical</item>
+        <item name="android:paddingLeft">@dimen/ma_text_field_full_width_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/ma_text_field_full_width_padding_horizontal</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/ma_text_field_full_width_input_text</item>
+    </style>
+
+    <style name="popup_window_animation_tab_close">
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+
+    <style name="popup_window_animation_phone">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="AppTheme.Profile" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+    <style name="AppTheme.Profile.Label" parent="AppTheme.Profile">
+        <item name="android:layout_marginTop">@dimen/profile_label_padding_top</item>
+        <item name="android:textColor">@color/profil_label_text_color</item>
+        <item name="android:textSize">@dimen/profile_label_text_size</item>
+    </style>
+
+    <style name="AppTheme.Profile.EditText" parent="AppTheme.Profile">
+        <item name="android:inputType">text</item>
+        <item name="android:enabled">false</item>
+        <item name="android:textSize">@dimen/profile_label_text_size</item>
+    </style>
+
+    <style name="AppTheme.Personalization" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+    <style name="AppTheme.Personalization.label" parent="AppTheme.Personalization">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.Personalization.RV" parent="AppTheme.Personalization">
+        <item name="android:layout_marginBottom">@dimen/personalization_margin_bottom_rv</item>
+        <item name="android:layout_marginTop">@dimen/personalization_margin_top_rv</item>
+    </style>
+
+    <style name="AppTheme.Personalization.card" parent="AppTheme.Personalization">
+        <item name="android:paddingTop">@dimen/personalization_padding_top_card</item>
+        <item name="android:paddingBottom">@dimen/personalization_padding_bottom_card</item>
+        <item name="android:layout_marginLeft">@dimen/personalization_margin_left_card</item>
+        <item name="android:layout_marginRight">@dimen/personalization_margin_right_card</item>
+    </style>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_nav_adv_contact"
+        android:icon="@drawable/ic_group_user"
+        android:title=""/>
+
+    <item
+        android:id="@+id/bottom_nav_adv_folder"
+        android:icon="@drawable/ic_folder_black_24dp"
+        android:title=""/>
+
+    <item
+        android:id="@+id/bottom_nav_adv_chat"
+        android:icon="@drawable/ic_chat"
+        android:title=""/>
+
+    <!--<item-->
+        <!--android:id="@+id/bottom_nav_alert"-->
+        <!--android:icon="@drawable/ic_certificate_box"-->
+        <!--android:title=""/>-->
+
+    <!--<item-->
+        <!--android:id="@+id/bottom_nav_android"-->
+        <!--android:icon="@drawable/ic_apk_box"-->
+        <!--android:title=""/>-->
+
+</menu>

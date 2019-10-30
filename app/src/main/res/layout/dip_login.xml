@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+
+    <!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <LinearLayout
+        android:id="@+id/ly_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_centerInParent="true">
+
+                <ImageView
+                    android:id="@+id/iv_login"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/toostudio" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/iv_login"
+                    android:gravity="center">
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_exploriztic"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:text="tooTanium"-->
+                        <!--android:textAlignment="center"-->
+                        <!--android:textColor="#000000"-->
+                        <!--android:letterSpacing="0.4"-->
+                        <!--android:textSize="40sp"/>-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="Working Studio"-->
+                        <!--android:textColor="#000000"-->
+                        <!--android:textSize="18sp"-->
+                        <!--android:paddingTop="3dp"-->
+                        <!--android:gravity="center_vertical"-->
+                        <!--android:layout_toRightOf="@+id/tv_exploriztic"-->
+                        <!--android:layout_alignParentBottom="true"/>-->
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/dialog_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Sign in to tooStudio Account"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_alignParentBottom="true"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <!--<include layout="@layout/ma_divider_horizontal_dark_up" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <EditText
+                    android:id="@+id/edit_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:drawableLeft="@drawable/ic_person_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/hint_username"
+                    android:singleLine="true"
+                    android:background="@drawable/custom_edit_text_search"
+                    android:textColor="#949292"
+                    android:textSize="15sp"
+                    android:padding="10dp"/>
+
+                <EditText
+                    android:id="@+id/edit_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/hint_password"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:background="@drawable/custom_edit_text_search"
+                    android:textColor="#949292"
+                    android:textSize="15sp"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"/>
+
+
+            </LinearLayout>
+
+            <!--<include layout="@layout/ma_divider_horizontal_dark_up" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/custom_button_radius"
+                    android:text="Sign In"
+                    android:textAllCaps="false"
+                    android:textColor="#edf000" />
+
+            </LinearLayout>
+            <!--<include layout="@layout/ma_divider_horizontal_dark_up" />-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!--</ScrollView>-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/btn_to_setup"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/btn_transparant"
+            android:text="Setting"
+            android:textAllCaps="false"
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

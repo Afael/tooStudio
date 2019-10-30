@@ -1,0 +1,255 @@
+<resources>
+    <string name="app_name">tooStudio</string>
+
+    <string name="positive_popup_text_default">You have successfully doing something</string>
+    <string name="positive_popup_title_default">Success</string>
+    <string name="negativetive_popup_text_default">You have failed doing something</string>
+    <string name="negativetive_popup_title_default">Failed</string>
+
+    <!--<string name="app_name">OnlineStorage</string>-->
+    <string name="FACEBOOK_APP_ID">2121346641470909</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">b14ffc8b3b42318b3c1ca6d24929bae1</string>
+    <string name="welcome_continue">Continue</string>
+    <string name="user_active">User Active</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="file_explore">File Explorer</string>
+    <string name="working_studio">Working Studio</string>
+    <string name="upload_channel">Upload Channel</string>
+    <string name="download_channel">Download Channel</string>
+    <string name="app_channel">App Channel</string>
+    <string name="exit_application">Exit Application</string>
+    <string name="exit">Exit</string>
+
+    <!--to handle shared preference-->
+    <string name="pref_file">com.desktopip.preference_file</string>
+    <string name="pref_login_status">com.desktopip.preference_login_status</string>
+    <string name="pref_user_name">com.desktopip.preference_user_name</string>
+    <string name="error_timeout">Request Timeout</string>
+    <string name="error_server">Internal Server Error</string>
+    <string name="error_auth">Authentication Failed</string>
+    <string name="error_network">Unable To Access The Network</string>
+    <string name="error_parse">There was a problem parsing the package</string>
+    <string name="logout">Logout</string>
+
+    <string name="download_Pdf">Download pdf</string>
+    <string name="download_Doc">Download Doc</string>
+    <string name="download_zip">Download Zip</string>
+    <string name="download_video">Download Video</string>
+    <string name="download_mp3">Download MP3</string>
+    <string name="openFolder">Open Downloaded Folder</string>
+    <string name="downloadStarted">Download Started…</string>
+    <string name="downloadCompleted">Download Completed…</string>
+    <string name="downloadFailed">Download Failed…</string>
+    <string name="downloadAgain">Download Again</string>
+    <string name="about">About</string>
+    <string name="fe_back">Back</string>
+    <string name="fe_upload">Upload</string>
+    <string name="fe_new_folder">New Folder</string>
+    <string name="fe_paste">Paste</string>
+    <string name="fe_reload">Reload</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="dip_advertise">Advertise</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="local_download">Download</string>
+    <string name="loc_copy">Copy</string>
+    <string name="loc_extract">Extract</string>
+
+    <string-array name="mime_type">
+        <item>application/msword</item>
+        <item>application/vnd.openxmlformats-officedocument.wordprocessingml.document</item>
+        <item>application/vnd.ms-powerpoint</item>
+        <item>application/vnd.openxmlformats-officedocument.presentationml.presentation</item>
+        <item>application/vnd.ms-excel</item>
+        <item>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</item>
+        <item>text/*</item>
+        <item>audio/*</item>
+        <item>video/*</item>
+        <item>image/*</item>
+        <item>application/vnd.android.package-archive</item>
+        <item>application/pdf</item>
+        <item>application/zip</item>
+        <item>application/javascript</item>
+        <item>application/json</item>
+        <item>application/xml</item>
+    </string-array>
+
+    <string-array name="extension">
+        <item>.mp3</item>
+        <item>.3gp</item>
+        <item>.mp4</item>
+        <item>.txt</item>
+        <item>.pdf</item>
+        <item>.apk</item>
+        <item>.doc</item>
+        <item>.docx</item>
+        <item>.ppt</item>
+        <item>.pptx</item>
+        <item>.xls</item>
+        <item>.xlsx</item>
+        <item>.pdf</item>
+        <item>.zip</item>
+        <item>.rar</item>
+        <item>.odt</item>
+        <item>.rdf</item>
+        <item>.htm</item>
+        <item>.html</item>
+        <item>.java</item>
+        <item>.js</item>
+        <item>.json</item>
+        <item>.jpg</item>
+        <item>.png</item>
+        <item>.xml</item>
+    </string-array>
+
+    <!-- CopyHelper statuses -->
+    <string name="copying">Copying&#8230;</string>
+    <string name="copied">Successfully copied</string>
+    <string name="copy_error">Some or all items couldn\'t be copied!</string>
+    <string name="moving">Moving&#8230;</string>
+    <string name="moved">Successfully moved</string>
+    <string name="move_error">Some or all items couldn\'t be moved!</string>
+    <string name="nothing_to_paste">Nothing to paste. Copy or cut files first.</string>
+
+    <plurals name="clipboard_info_items_to_copy">
+        <item quantity="one">%1$d item to copy</item>
+        <item quantity="other">%1$d items to copy</item>
+    </plurals>
+    <plurals name="clipboard_info_items_to_move">
+        <item quantity="one">%1$d item to move</item>
+        <item quantity="other">%1$d items to move</item>
+    </plurals>
+
+    <string name="clipboard_undo">Undo</string>
+    <string name="clipboard_dismiss">Dismiss</string>
+    <string name="preference_usebestmatch_title">Use best app for icons</string>
+    <string name="preference_usebestmatch_summary_off">use most recently installed app</string>
+    <string name="preference_usebestmatch_summary_on">use most suitable app</string>
+
+    <!-- Construct a unique file name of a file called %s. -->
+    <string name="copied_file_name">Copy of %s</string>
+
+    <!-- Construct a unique file name with number %1$d of a file called %2$s. -->
+    <string name="copied_file_name_2">Copy %1$d of %2$s</string>
+    <string name="media_scan_included">This folder will be included in the next media scan.</string>
+    <string name="media_scan_excluded">This folder will be excluded during the next media scan.</string>
+    <string name="error_generic">An error occurred: </string>
+    <string name="error_media_scan">Could not change media scan settings.</string>
+    <string name="send_not_available">No application available for sending.</string>
+    <string name="application_not_available">Application not available</string>
+
+    <!--String slide1 title and description-->
+    <string name="slide_1_title">It\'s Handy</string>
+    <string name="slide_1_description">
+        Your file is on your hand, as you can access, manage, create, and share your file with ease.
+    </string>
+
+    <!--String slide2 title and description-->
+    <string name="slide_2_title">Collaborative Works</string>
+    <string name="slide_2_description">
+        It\'s computing freedom, allows you to create a collaborative working with your friends on remote.
+    </string>
+
+    <!--String slide3 title and description-->
+    <string name="slide_3_title">Securely Located</string>
+    <string name="slide_3_description">
+        Let the backend systems do their works by locating your file in securest place and keeping it safe for being loss.
+    </string>
+
+    <!--String slide4 title and description-->
+    <string name="slide_4_title">On-Apps Editing</string>
+    <string name="slide_4_description">
+        Fully control file as you can edit anytime and anywhere and on-apps editing.
+    </string>
+
+    <string name="my_preference">"com.desktopip.MyPref"</string>
+    <string name="my_preference_key">"com.desktopip.MyPrefKey"</string>
+    <string name="warning_no_internet">No internet connection</string>
+    <string name="warning_confirm_exit">Are you sure want to exit?</string>
+    <string name="validation_input_login">Please enter valid username and password!</string>
+    <string name="validation_input_setup">Please enter all valid requirement!</string>
+    <string name="message_login_success">You are successfully logged in as </string>
+    <string name="warning_login_admin_account">You are trying login with administrator account, but sorry you don\'t have access!</string>
+    <string name="warning_setup_url_wrong">It seems like your network is broken or URL setting is wrong</string>
+    <string name="volley_timeout_error">Request time-out, it seems like your network is broken or URL setting is wrong</string>
+    <string name="volley_auth_error">Authentication Failed</string>
+    <string name="volley_server_error">Internal Server Error</string>
+    <string name="volley_network_access_error">Unable To Access The Network</string>
+    <string name="volley_parse_error">There was a problem parsing the package</string>
+    <string name="your_personalization">Your Personalization</string>
+    <string name="your_working_studio">Your Working Studio</string>
+    <string name="your_profile">Your Profile</string>
+    <string name="marketplace">Marketplace</string>
+    <string name="language">Language</string>
+    <string name="help_and_guide">Help and Guide</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="title_activity_tab_working_studio">TabWorkingStudio</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="api_download_file_method">downloadFile</string>
+    <string name="api_download_directory_method">downloadDirectory</string>
+    <string name="api_type_file_directory">directory</string>
+    <string name="api_type_file_folder">folder</string>
+    <string name="api_copy_method">copy</string>
+    <string name="api_paste_method">paste</string>
+    <string name="api_warning_copy_in_root_directory">Can\'t copy directory in parent directory</string>
+    <string name="api_delete_directory_method">deleteDirectory</string>
+    <string name="api_delete_file_method">deleteFile</string>
+    <string name="api_type_file_file">file</string>
+
+    <string name="profile_title">Profile</string>
+    <string name="personalization_title">Your Personalization</string>
+
+    <!--Profile Label-->
+    <string name="label_username">Username</string>
+    <string name="label_position">Position</string>
+    <string name="label_fullname">Fullname</string>
+    <string name="label_email">Email</string>
+    <string name="personalization_preview_label">Preview</string>
+    <string name="personalization_appearance_label">Appearance</string>
+    <string name="personalization_wallpaper_label">Wallpaper</string>
+    <string name="personalization_add_new_wallpaper_label">Add New Wallpaper</string>
+
+    <string name="dummy_username" translatable="false">Spartial</string>
+    <string name="save_profile_btn_txt">save profile</string>
+    <string name="choose_file">Choose File</string>
+    <string name="edit">Edit</string>
+    <string name="position">Position</string>
+    <string name="fullName">FullName</string>
+    <string name="email">Email</string>
+    <string name="username">UserName</string>
+    <string name="profile_image">profile_image</string>
+    <string name="choose_file_btn_txt">Choose File</string>
+    <string name="tootanium_working_studio" translatable="false">tooTanium Working Studio</string>
+    <string name="preview_personalization" translatable="false">preview_personalization</string>
+
+    <!--Share Preferences Key-->
+    <string name="wallpaper_key_preferences" translatable="false">PERSONALIZATION_WALLPAPER_KEY</string>
+    <string name="action_bar_color_key" translatable="false">PERSONALIZATION_ACTIONBAR_COLOR_KEY</string>
+    <string name="share_preference_key" translatable="false">SPARTIAL_SHARED_PREFERENCES</string>
+    <string name="shared_pref_wallpaper_key">SHARE_PREF_WALLPAPER_KEY</string>
+    <string name="PERSONALIZATION_STATUS_BAR_COLOR_KEY">STATUS_BAR_COLOR</string>
+    <string name="default_action_bar_color_key">default_action_bar_color_key</string>
+    <string name="system_default_action_bar_color_key">desktopip-blue</string>
+    <string name="default_wallpaper_key">default_wallpaper_key</string>
+    <string name="default_lock_screen_key">default_lock_screen_key</string>
+    <string name="nav_help_and_guide">Help and Guide</string>
+    <string name="nav_language">Language</string>
+    <string name="nav_marketplace">Marketplace(Coming soon)</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_personalization">Personalization</string>
+    <string name="cache_user">DIPSTORAGE_U</string>
+    <string name="cache_password">DIPSTORAGE_P</string>
+    <string name="too_version">Version 1.0.1</string>
+    <string name="company_name">desktopIP Teknologi Indonesia</string>
+    <string name="too_about">tooTanium is a collaboration platform (can be called also as remote working platform) that facilitate net-worker to work on cloud in real time and remote. They can also get collaborate with their friends, share file in easy way, and showcasing their portfolios on this platform.</string>
+    <string name="powered_by">Powered By DesktopIP</string>
+    <string name="dip_web">www.desktopip.com</string>
+    <string name="too_email">info@desktopip.com</string>
+    <string name="audio_player_desktopip">Audio Player - desktopIP</string>
+
+</resources>

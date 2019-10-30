@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:background="@drawable/white_grey_border_bottom">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_group" />
+
+        <TextView
+            android:id="@+id/adv_user_group_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Group"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/color_black"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

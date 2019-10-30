@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.desktopip.exploriztic.tootanium">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".utilities.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/dip_cloud_storage"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/dip_cloud_storage"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        AppTheme
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <!-- <meta-data -->
+        <!-- android:name="com.facebook.accountkit.ApplicationName" -->
+        <!-- android:value="@string/app_name" /> -->
+        <!-- <meta-data -->
+        <!-- android:name="com.facebook.sdk.ApplicationId" -->
+        <!-- android:value="@string/FACEBOOK_APP_ID" /> -->
+        <!-- <meta-data -->
+        <!-- android:name="com.facebook.accountkit.ClientToken" -->
+        <!-- android:value="@string/ACCOUNT_KIT_CLIENT_TOKEN" /> -->
+
+
+        <!-- <activity android:name="com.facebook.accountkit.ui.AccountKitActivity" /> -->
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <!-- <activity android:name=".activities.AnimeActivity" /> -->
+        <activity
+            android:name=".activities.Login"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activities.WebViewEditWord"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.Introduction"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.GroupInvitation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.GroupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.GroupSettings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.GroupInvitationViaLink"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.GroupJoin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.NotificationsList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.SearchGroup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.GroupRequestList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.GroupAccessMember"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.GroupAccessMemberSetup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.AdvertiseSettings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.SystemPreference"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.UserProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.Personalization"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Personalization" />
+        <activity
+            android:name=".activities.Profile"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Profile" />
+        <activity
+            android:name=".activities.About"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Profile" />
+        <activity
+            android:name=".activities.HelpGuide"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Profile" />
+        <activity android:name=".activities.MyProfile"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "409001997321",
+    "firebase_url": "https://tootanium.firebaseio.com",
+    "project_id": "tootanium",
+    "storage_bucket": "tootanium.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409001997321:android:0b423ca64fe0cf62",
+        "android_client_info": {
+          "package_name": "com.desktopip.exploriztic.tootanium"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409001997321-s2t8t0qcjrc5bmmpatk5oieq8gsumo4v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.desktopip.exploriztic.tootanium",
+            "certificate_hash": "ad41f851b95aa0d130eb44af9860f1d40c5bffaf"
+          }
+        },
+        {
+          "client_id": "409001997321-tjsd3mka7goo1j6kg3p2tcujp1cem8l0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwSU44j4eb1qHegXpXansBN4D-rm_uwD4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409001997321-tjsd3mka7goo1j6kg3p2tcujp1cem8l0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

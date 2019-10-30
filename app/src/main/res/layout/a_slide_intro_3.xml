@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSlide3">
+
+    <ImageView
+        android:id="@+id/imgSlide3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/securely_located_1"/>
+
+    <TextView
+        android:id="@+id/titleSlide3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/slide_3_title"
+        android:layout_below="@+id/imgSlide3"
+        android:textColor="@color/color_white"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/titleDescription3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:text="@string/slide_3_description"
+        android:layout_below="@+id/titleSlide3"
+        android:textColor="@color/color_white"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="12dp" />
+
+</RelativeLayout>

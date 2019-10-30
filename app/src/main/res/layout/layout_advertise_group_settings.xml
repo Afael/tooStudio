@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!--<android.support.design.widget.AppBarLayout-->
+        <!--android:id="@+id/appBar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="?attr/actionBarSize"-->
+        <!--android:background="@drawable/white_grey_border_bottom"-->
+        <!--android:layout_alignParentTop="true">-->
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/settingsToolBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_grey_border_bottom">
+
+        </android.support.v7.widget.Toolbar>
+
+    <!--</android.support.design.widget.AppBarLayout>-->
+
+    <LinearLayout
+        android:id="@+id/layout_setting_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/settingsToolBar"
+        android:layout_marginTop="20dp"
+        android:background="@color/color_white">
+
+        <include layout="@layout/ma_divider_horizontal_dark_up"/>
+
+        <RelativeLayout
+            android:id="@+id/rlGroupAdminsSetting"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:background="@drawable/bg_clickable">
+
+            <TextView
+                android:id="@+id/settings_admin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit Group Admins"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#949292"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_arrow_right"
+                android:tint="#949292"/>
+
+        </RelativeLayout>
+
+        <include layout="@layout/ma_divider_horizontal_dark"/>
+
+        <RelativeLayout
+            android:id="@+id/rlNameAndDescriptionSetting"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:background="@drawable/bg_clickable">
+
+            <TextView
+                android:id="@+id/settings_group_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name and Description"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#949292"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_arrow_right"
+                android:tint="#949292"/>
+
+        </RelativeLayout>
+
+        <include layout="@layout/ma_divider_horizontal_dark_up"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/layout_setting_group"
+        android:background="@color/color_white"
+        android:layout_marginTop="20dp">
+
+        <include layout="@layout/ma_divider_horizontal_dark_up"/>
+
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/rlLeaveGroup"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:clickable="true"-->
+            <!--android:background="@drawable/bg_clickable"-->
+            <!--android:gravity="center">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Leave Group"-->
+                <!--android:textStyle="bold"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:textColor="@color/color_blue"/>-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<include layout="@layout/ma_divider_horizontal_dark_up"/>-->
+
+        <RelativeLayout
+            android:id="@+id/rlDeleteGroup"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:background="@drawable/bg_clickable"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete Group"
+                android:textStyle="bold"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/color_red"/>
+
+
+        </RelativeLayout>
+
+        <include layout="@layout/ma_divider_horizontal_dark_up"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

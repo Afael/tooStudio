@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/loc_delete"
+        android:title="@string/fe_back"
+        android:icon="@drawable/ic_delete_black_24dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/loc_new_folder"
+        android:title="@string/fe_new_folder"
+        android:icon="@mipmap/ic_folder"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/loc_extract"
+        android:title="@string/loc_extract"
+        android:icon="@drawable/ic_unarchive"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/loc_copy"
+        android:title="@string/loc_copy"
+        android:icon="@drawable/ic_content_copy_black_24dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/loc_paste"
+        android:title="@string/fe_paste"
+        android:icon="@drawable/ic_content_paste_black_24dp"
+        app:showAsAction="ifRoom"/>
+</menu>

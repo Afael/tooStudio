@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_white"
+    android:focusableInTouchMode="true">
+
+    <!--<include layout="@layout/main_toolbar" />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <TextView
+            android:id="@+id/adv_invite_cancel_action"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Cancel"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:textSize="16sp"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/color_blue"/>
+
+        <TextView
+            android:id="@+id/textAddMember"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Members"
+            android:gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvCounter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0 selected"
+            android:gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:textSize="14sp"
+            android:layout_below="@+id/textAddMember"/>
+
+        <TextView
+            android:id="@+id/adv_invite_user_action"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Add"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingRight="15dp"
+            android:textSize="16sp"
+            android:enabled="false"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/color_white_grey"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:id="@+id/contact_search"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Search"
+            android:singleLine="true"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/places_ic_search"
+            android:drawablePadding="10dp"
+            android:background="@drawable/custom_edit_text_search"/>
+
+    </RelativeLayout>
+
+    <include layout="@layout/ma_divider_horizontal_dark_up"/>
+
+    <RelativeLayout
+        android:id="@+id/adv_invite_via_link"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:background="@drawable/bg_clickable"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Invite to Group via Link"
+            android:layout_alignParentLeft="true"
+            android:drawableLeft="@drawable/ic_link_black_24dp"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/color_blue"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textColor="@color/color_blue"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#949292"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_arrow_right"
+            android:tint="#949292"/>
+
+    </RelativeLayout>
+
+    <include layout="@layout/ma_divider_horizontal_dark_up"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rc_invitation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/invitationAppBar">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

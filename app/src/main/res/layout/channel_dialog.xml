@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Information Details"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/color_white"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="File Name"
+        android:textSize="12sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="15dp"
+        android:textColor="@android:color/darker_gray"
+        android:background="@drawable/custom_button_login_dialog"/>
+    <TextView
+        android:id="@+id/etUpBaseFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_login_dialog"
+        android:gravity="center_vertical"
+        android:text="Document"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:focusable="false"/>
+
+    <include layout="@layout/ma_divider_horizontal_dark_up" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Path Location"
+        android:textSize="12sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="5dp"
+        android:textColor="@android:color/darker_gray"
+        android:background="@drawable/custom_button_login_dialog"/>
+    <TextView
+        android:id="@+id/etUpLocPath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_login_dialog"
+        android:gravity="center_vertical"
+        android:text="user01/Document"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:focusable="false"/>
+
+    <include layout="@layout/ma_divider_horizontal_dark_up" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="URL Link"
+        android:textSize="12sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="5dp"
+        android:textColor="@android:color/darker_gray"
+        android:background="@drawable/custom_button_login_dialog"/>
+    <TextView
+        android:id="@+id/etUpUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_login_dialog"
+        android:gravity="center_vertical"
+        android:text="URL"
+        android:textColorLink="#03A9F4"
+        android:autoLink="web"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:focusable="false"/>
+
+    <include layout="@layout/ma_divider_horizontal_dark_up" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Date"
+        android:textSize="12sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="5dp"
+        android:textColor="@android:color/darker_gray"
+        android:background="@drawable/custom_button_login_dialog"/>
+    <TextView
+        android:id="@+id/etUpCreatedDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_login_dialog"
+        android:gravity="center_vertical"
+        android:text="2018-06-13"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:focusable="false"/>
+
+    <include layout="@layout/ma_divider_horizontal_dark_up" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expire Date"
+        android:textSize="12sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="5dp"
+        android:textColor="@android:color/darker_gray"
+        android:background="@drawable/custom_button_login_dialog"/>
+    <TextView
+        android:id="@+id/etUpExpiredDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_login_dialog"
+        android:gravity="center_vertical"
+        android:text="2018-06-13"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:focusable="false"/>
+
+    <include layout="@layout/ma_divider_horizontal_dark_up" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textSize="12sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="5dp"
+        android:textColor="@android:color/darker_gray"
+        android:background="@drawable/custom_button_login_dialog"/>
+    <TextView
+        android:id="@+id/etUpStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_login_dialog"
+        android:gravity="center_vertical"
+        android:text="Active"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:focusable="false"/>
+
+    <include layout="@layout/ma_divider_horizontal_dark_up" />
+
+    <TextView
+        android:id="@+id/etTypeHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:textSize="12sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="5dp"
+        android:textColor="@android:color/darker_gray"
+        android:background="@drawable/custom_button_login_dialog"/>
+    <TextView
+        android:id="@+id/etType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_login_dialog"
+        android:gravity="center_vertical"
+        android:text="Folder"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:focusable="false"/>
+
+    <include layout="@layout/ma_divider_horizontal_dark_up" />
+
+</LinearLayout>

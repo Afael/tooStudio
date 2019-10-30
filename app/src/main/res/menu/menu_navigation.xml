@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/working_studio"
+            android:icon="@drawable/ic_desktop_windows"/>
+        <item
+            android:id="@+id/nav_personalization"
+            android:title="@string/nav_personalization"
+            android:icon="@drawable/ic_personalization"/>
+        <item
+            android:id="@+id/nav_profile"
+            android:title="@string/nav_profile"
+            android:icon="@drawable/ic_group_user"/>
+        <!--<item-->
+            <!--android:id="@+id/nav_marketplace"-->
+            <!--android:title="@string/nav_marketplace"-->
+            <!--android:icon="@drawable/ic_marketplace"/>-->
+        <!--<item-->
+            <!--android:id="@+id/nav_language"-->
+            <!--android:title="@string/nav_language"-->
+            <!--android:icon="@drawable/ic_language"/>-->
+        <item
+            android:id="@+id/nav_help_guide"
+            android:title="@string/nav_help_and_guide"
+            android:icon="@drawable/ic_help_guide"/>
+
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:title="@string/about"
+                android:icon="@drawable/ic_about_24dp"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:title="@string/logout"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"/>
+        </menu>
+    </item>
+
+</menu>

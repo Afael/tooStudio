@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.GroupAccessMember">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarMemberSettings"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/white_grey_border_bottom"
+        android:layout_alignParentTop="true">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/memberSettingsToolBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:id="@+id/layoutGroupAccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/appBarMemberSettings">
+
+        <TextView
+            android:id="@+id/txtGroupAccess"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Group Access"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/appBarMemberSettings"/>
+
+        <include layout="@layout/ma_divider_horizontal_dark_up"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rcGroupAccess"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/txtGroupAccess">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <include layout="@layout/ma_divider_horizontal_dark_up"/>
+
+        <TextView
+            android:id="@+id/txtGroupAccessUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Group Access Users"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/rcGroupAccess"/>
+
+        <include layout="@layout/ma_divider_horizontal_dark_up"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rcGroupAccessUser"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="10dp"
+            android:layout_below="@+id/txtGroupAccess">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.GroupInvitationViaLink">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/main_toolbar"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/iv_group_join_thumbnail"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@mipmap/ic_group"/>
+
+            <TextView
+                android:id="@+id/group_name_join"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Group Name"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:paddingLeft="10dp"
+                android:layout_toRightOf="@+id/iv_group_join_thumbnail"/>
+
+            <TextView
+                android:id="@+id/group_join_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DesktopIP Online Storage Group Invite"
+                android:layout_toRightOf="@+id/iv_group_join_thumbnail"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:layout_below="@+id/group_name_join"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Anyone with DIP Online Storage mobile app can join to this group. Only share it with people you trust"/>
+
+        <Button
+            android:id="@+id/group_join_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_button_blue"
+            android:text="Join"
+            android:textColor="@color/color_white"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

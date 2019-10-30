@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    tools:context=".activities.Personalization">
+
+    <android.support.v7.widget.CardView
+        style="@style/AppTheme.Personalization.card"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        cardview:cardElevation="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ebe8e8"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/personalization_preview_label"
+                style="@style/AppTheme.Personalization.label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:text="@string/personalization_preview_label" />
+
+            <LinearLayout
+                android:id="@+id/personalization_preview_root"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp">
+
+                <TextView
+                    android:id="@+id/personalization_preview_actionbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/tootanium_working_studio"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/personalization_preview_wallpaper"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/preview_personalization"
+                    tools:background="@drawable/dummy_background" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        style="@style/AppTheme.Personalization.card"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        cardview:cardElevation="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/personalization_label_appearance"
+                style="@style/AppTheme.Personalization.label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/personalization_appearance_label" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/personalization_appearance_rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="@dimen/personalization_margin_bottom_rv"
+                android:orientation="horizontal" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        style="@style/AppTheme.Personalization.card"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        cardview:cardElevation="2dp"
+        android:layout_weight="6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/personalization_label_wallpaper"
+                style="@style/AppTheme.Personalization.label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/personalization_wallpaper_label" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/personalization_wallpaper_rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/personalization_margin_bottom_rv" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

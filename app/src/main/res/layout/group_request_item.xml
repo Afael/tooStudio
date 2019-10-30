@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="3dp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:background="@drawable/white_grey_border_bottom"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:id="@+id/lyUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true">
+
+            <TextView
+                android:id="@+id/user_request_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Name"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/color_black"/>
+
+            <TextView
+                android:id="@+id/request_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Request Date"
+                android:textSize="12sp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/remove_request_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remove"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/color_red"
+            android:layout_toLeftOf="@+id/confirm_request_group"
+            android:background="@drawable/custom_button_stroke_rectangle_gray"/>
+
+        <TextView
+            android:id="@+id/confirm_request_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="20"
+            android:text="Confirm"
+            android:gravity="center"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/color_white"
+            android:background="@drawable/custom_button_blue"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

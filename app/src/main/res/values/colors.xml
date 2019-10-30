@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#28a5f5</color>
+    <color name="colorPrimaryDark">#1e87f0</color>
+    <color name="colorAccent">#448AFF</color>
+
+    <color name="ma_divider_dark_12">#1f000000</color>
+    <color name="color_red">#ff3943</color>
+    <color name="color_red_dark">#801b30</color>
+    <color name="color_green_light">#abffc0</color>
+    <color name="color_green">#247b37</color>
+    <color name="color_green_second">#3eb959</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_blue">#1976D2</color>
+    <color name="color_black">#000000</color>
+    <color name="color_white_smoke">#ededed</color>
+    <color name="color_white_grey">#e4e4e4</color>
+    <color name="color_grey">#BDBDBD</color>
+    <color name="color_header_login_dark">#23283a</color>
+    <color name="color_header_login_light">#313850</color>
+    
+    <!--Color intro slide-->
+    <color name="colorSlide1">#009688</color>
+    <color name="colorSlide2">#795548</color>
+    <color name="colorSlide3">#8BC34A</color>
+    <color name="colorSlide4">#3F51B5</color>
+
+    <!--Color active and inactive dot-->
+    <color name="activeDot">#FFFAFA</color>
+    <color name="inactiveDot">#83878B</color>
+
+    <color name="divider_color">#80CBC4</color>
+    <color name="list_item_title">#AAAAAA</color>
+
+    <color name="profil_label_text_color">#000</color>
+    <color name="profil_saveprofil_btn">@color/colorPrimary</color>
+    <color name="dummy_personalization_preview_bar_color">#cf802c</color>
+    <color name="personalization_add_new_wallpaper_btn_bg">#2f5c5c5c</color>
+
+    <!--Predefine Personalization Color-->
+    <color name="light_blue">#2086fb</color>
+    <color name="green">#07810d</color>
+    <color name="orange">#f67d03</color>
+    <color name="dark_blue">#1e30f6</color>
+
+</resources>
